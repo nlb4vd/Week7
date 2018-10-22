@@ -11,7 +11,7 @@ Time spent: 5 hours spent in total
     - Vulnerability types: SQL Injection
     - Tested in version: 4.0 WordPress, 1.05 FormBuilder
     - Fixed in version: 1.07 FormBuilder
-  - [ ] GIF Walkthrough: https://imgur.com/AakQjyu
+  - [ ] GIF Walkthrough: ![](https://imgur.com/AakQjyu.gif)
   - [ ] Steps to recreate: I installed version 1.05 of FormBuilder as a Plugin to WordPress. I then copied a link with SQL in it (http://<target>/wp-admin/tools.php?page=formbuilder.php&fbtag&pageNumber&fbaction=exportForm&fbid=1 AND (SELECT * FROM (SELECT(SLEEP(5)))WSdS) into the search bar. 
   - [ ] Affected source code: formbuilder.php/formuilder_admin_functions.php and formbuilder/php/formbuilder_admin_pages.inc.php
  
